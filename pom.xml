@@ -4,6 +4,17 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
+  <project>
+    <dependencies>
+        <dependency>
+            <groupId>com.mycompany</groupId>
+            <artifactId>my-local-library</artifactId>
+            <version>1.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib/my-local-library.jar</systemPath>
+        </dependency>
+    </dependencies>
+    </project>
   <groupId>Automation</groupId>
   <artifactId>Ecommerce</artifactId>
   <version>0.0.1-SNAPSHOT</version>
@@ -86,6 +97,18 @@
     <artifactId>testng</artifactId>
     <version>7.0.0</version>
   </dependency>
+  <dependency>
+<groupId>io.rest-assured</groupId>
+<artifactId>rest-assured</artifactId>
+<version>5.5.0</version>
+<scope>test</scope>
+</dependency>
+<dependency>
+        <groupId>org.json</groupId>
+        <artifactId>json</artifactId>
+        <version>20231013</version>
+        <scope>test</scope>
+    </dependency>
 </dependencies>
 
   <build>

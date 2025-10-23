@@ -1,0 +1,108 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Practice",
+            "request": "launch",
+            "mainClass": "testcases.Practice"
+        },
+        {
+            "type": "java",
+            "name": "Array1",
+            "request": "launch",
+            "mainClass": "testcases.Array1",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "ReverseString",
+            "request": "launch",
+            "mainClass": "ReverseString"
+        },
+        {
+            "type": "java",
+            "name": "Reverseword",
+            "request": "launch",
+            "mainClass": "Reverseword"
+        },
+        {
+            "type": "java",
+            "name": "Reverseword",
+            "request": "launch",
+            "mainClass": "packages.Pageobjects.Reverseword",
+            "projectName": "Ecommerce"
+        },
+        {
+            "type": "java",
+            "name": "ReverseString",
+            "request": "launch",
+            "mainClass": "packages.Pageobjects.ReverseString",
+            "projectName": "Ecommerce"
+        },
+        {
+            "type": "java",
+            "name": "mains",
+            "request": "launch",
+            "mainClass": "packages.base.mains",
+            "projectName": "Ecommerce"
+        },
+        {
+            "type": "java",
+            "name": "signinclass",
+            "request": "launch",
+            "mainClass": "packages.base.signinclass",
+            "projectName": "Ecommerce"
+        },
+        {
+            "type": "java",
+            "name": "LoginTest",
+            "request": "launch",
+            "mainClass": "packages.base.LoginTest",
+            "projectName": "Ecommerce"
+        },
+        {
+            "type": "java",
+            "name": "Stringfinder",
+            "request": "launch",
+            "mainClass": "testcases.Stringfinder",
+            "projectName": "Ecommerce"
+        },
+        {
+            "type": "java",
+            "name": "Array1",
+            "request": "launch",
+            "mainClass": "testcases.Array1",
+            "projectName": "Ecommerce"
+        },
+        {
+            "type": "java",
+            "name": "Forloop",
+            "request": "launch",
+            "mainClass": "testcases.Forloop",
+            "projectName": "Ecommerce"
+        },
+        {
+            "type": "java",
+            "name": "Arrayproblems",
+            "request": "launch",
+            "mainClass": "testcases.Arrayproblems",
+            "projectName": "Ecommerce"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Program",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "c:\\Users\\Admin\\OneDrive\\Desktop\\typescrpit",
+            "outFiles": [
+                "${workspaceFolder}/**/*.js"
+            ]
+        }
+    ]
+}
